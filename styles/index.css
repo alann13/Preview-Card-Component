@@ -16,6 +16,11 @@ body {
   background: var(--lightgrey);
 }
 
+h1 {
+  /* For the purpose of this project, we are just hiding it to satisfy a11y */
+  opacity: 0;
+}
+
 main {
   align-items: center;
   display: flex;
